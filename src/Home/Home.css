@@ -1,11 +1,16 @@
 .radiobtn {
     transform: scale(2); /* Adjust the scale factor as needed */
     margin-right: 20px; /* Optional: Add some spacing to the right of the radio button */
-    
+    color: blue;
+    background-color: blue;
+    cursor: pointer;
+
   }
   .radio{
     padding:1px 15px;
+    
   }
+ 
   
  
  

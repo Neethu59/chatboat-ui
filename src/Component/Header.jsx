@@ -25,7 +25,7 @@ export default function Header() {
          
           <Nav className="ml-auto" activeKey="/home">
             <Nav.Item>
-              <Nav.Link> <button>Logout</button></Nav.Link>
+              <Nav.Link> <button>Log Out</button></Nav.Link>
             </Nav.Item>
             
           </Nav>

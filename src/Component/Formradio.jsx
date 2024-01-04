@@ -7,7 +7,9 @@ export default function Formradio(props) {
         <div className='col'>
           <div className="radio">
             <label>
-              <input type="radio"className='radiobtn' value="option1" checked={true} />
+              <input type="radio"className='radiobtn' value={props.title.toLowerCase()} 
+              checked={props.checked}
+              onChange={props.onChange} />
               {props.title}
             </label>
           </div>
